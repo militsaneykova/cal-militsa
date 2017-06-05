@@ -1,0 +1,60 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Calculator</title>
+	
+</head>
+<body>
+<div id="main">
+  <div id="img"><img src="grass.jpeg" width="100%" height="100%"></div>
+  <center>
+  <table>
+  
+  	<tr><td class="display" id="main-display" colspan="4" margin-bottom: 10px></td></tr>
+    
+  	<tr>
+  	    <td id="clear" OnClick="clearButtonClick()">C</td>
+        <td id="dev" OnClick="operandButtonClick(event)">/</td>
+        <td id="multiply" OnClick="operandButtonClick(event)">x</td>
+        <td id="clr" OnClick="clearButtonClick()">Clr</td>
+  	</tr>
+  	<tr>
+  		  <td id="seven" OnClick="numberButtonClick(event)">7</td>
+        <td id="eigth" OnClick="numberButtonClick(event)">8</td>
+        <td id="nine" OnClick="numberButtonClick(event)">9</td>
+        <td id="minus" OnClick="operandButtonClick(event)">-</td>
+  	</tr>
+  	<tr>
+  		  <td id="four" OnClick="numberButtonClick(event)">4</td>
+        <td id="five" OnClick="numberButtonClick(event)">5</td>
+        <td id="six" OnClick="numberButtonClick(event)">6</td>
+        <td id="plus" OnClick="operandButtonClick(event)">+</td>
+  	</tr>
+  	<tr>
+  		  <td id="one" OnClick="numberButtonClick(event)">1</td>
+        <td id="two" OnClick="numberButtonClick(event)">2</td>
+        <td id="three" OnClick="numberButtonClick(event)">3</td>
+        <td id="avg" Onclick="operandButtonClick(event)">avg</td>
+    </tr>
+     <tr>
+        <td id="percent" OnClick="operandButtonClick(event)">%</td>
+        <td id="zero" OnClick="numberButtonClick(event)">0</td>
+        <td id="decimal" OnClick="numberButtonClick(event)">.</td>
+        <td id="sum"  OnClick="sumButtonClick()">=</td>
+    </tr>
+
+
+  </table>
+ </center>
+</div>
+<script type="text/javascript" src="java.js"></script>
+  
+
+
+
+
+
+</body>
+</html>
